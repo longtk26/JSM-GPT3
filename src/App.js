@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import CTA from "./components/CTA";
+import Brand from "./components/Brand";
+import Navbar from "./components/Navbar";
+
+import {
+    Blog,
+    Features,
+    Footer,
+    Header,
+    Possibility,
+    WhatGPT3,
+} from "./containers";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return <div></div>;
 }
 
 export default App;
