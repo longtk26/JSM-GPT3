@@ -1,3 +1,4 @@
+import "./App.css";
 import CTA from "./components/CTA";
 import Brand from "./components/Brand";
 import Navbar from "./components/Navbar";
@@ -12,7 +13,21 @@ import {
 } from "./containers";
 
 function App() {
-    return <div></div>;
+    return (
+        <div className="App">
+            <div className="gradient__bg">
+                <Navbar />
+                <Header />
+            </div>
+            <Brand />
+            <WhatGPT3 />
+            <Features />
+            <Possibility />
+            <CTA />
+            <Blog />
+            <Footer />
+        </div>
+    );
 }
 
 export default App;
